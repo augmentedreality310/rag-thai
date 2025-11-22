@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Mac
+.DS_Store
+
+# Project specific
+chroma_db/
+data/
+!data/.gitkeep
