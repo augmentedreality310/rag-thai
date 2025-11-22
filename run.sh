@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Activate virtual environment
-source venv/bin/activate
+source ../venv/bin/activate
 
 # Check if Ollama is running
 if ! pgrep -x "ollama" > /dev/null; then
